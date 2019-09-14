@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding:0
+}
+
+#top-bar {
+  height: 50px;
+  font-family: arial, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+
+.right-options{
+  width: 49%;
+  float: right;
+}
+
+.right-options ul {
+  float: right;
+}
+
+.left-options{
+  float: left;
+  width: 49%;
+}
+
+.right-options img{
+  width: 20px;
+  height: 20px;
+}
+
+ul li{
+  display: inline;
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+
+#logo_search img{
+  margin: 0px auto;
+  padding-top: 110px;
+  display: block;
+  width: 272px;
+  height: 92px;
+}
+
+#logo_search form input{
+  display: block;
+  margin: 20px auto;
+  width: 25%;
+  height: 50px;
+  font:16px arial, sans-serif;
+  border-radius: 45px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+button {
+  display: inline;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+footer {
+  position: absolute;
+  border-top: 1px solid #aaa;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+}
